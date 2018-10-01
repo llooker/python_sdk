@@ -1,4 +1,4 @@
-# swagger_client.LookmlModelApi
+# lookerapi.LookmlModelApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -23,12 +23,12 @@ Get All LookML Models
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LookmlModelApi()
+api_instance = lookerapi.LookmlModelApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -71,13 +71,13 @@ Create LookML Model
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LookmlModelApi()
-body = swagger_client.LookmlModel() # LookmlModel | LookML Model (optional)
+api_instance = lookerapi.LookmlModelApi()
+body = lookerapi.LookmlModel() # LookmlModel | LookML Model (optional)
 
 try: 
     # Create LookML Model
@@ -119,12 +119,12 @@ Delete LookML Model
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LookmlModelApi()
+api_instance = lookerapi.LookmlModelApi()
 lookml_model_name = 'lookml_model_name_example' # str | Name of lookml model.
 
 try: 
@@ -167,12 +167,12 @@ Get LookML Model
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LookmlModelApi()
+api_instance = lookerapi.LookmlModelApi()
 lookml_model_name = 'lookml_model_name_example' # str | Name of lookml model.
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -217,12 +217,12 @@ Get LookML Model Explore
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LookmlModelApi()
+api_instance = lookerapi.LookmlModelApi()
 lookml_model_name = 'lookml_model_name_example' # str | Name of lookml model.
 explore_name = 'explore_name_example' # str | Name of explore.
 fields = 'fields_example' # str | Requested fields. (optional)
@@ -269,14 +269,14 @@ Update LookML Model
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LookmlModelApi()
+api_instance = lookerapi.LookmlModelApi()
 lookml_model_name = 'lookml_model_name_example' # str | Name of lookml model.
-body = swagger_client.LookmlModel() # LookmlModel | LookML Model
+body = lookerapi.LookmlModel() # LookmlModel | LookML Model
 
 try: 
     # Update LookML Model

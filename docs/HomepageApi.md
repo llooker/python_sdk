@@ -1,4 +1,4 @@
-# swagger_client.HomepageApi
+# lookerapi.HomepageApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -27,12 +27,12 @@ Get All Homepage Items
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.HomepageApi()
+api_instance = lookerapi.HomepageApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 sorts = 'sorts_example' # str | Fields to sort by. (optional)
 homepage_section_id = 'homepage_section_id_example' # str | Filter to a specific homepage section (optional)
@@ -79,12 +79,12 @@ Get All Homepage sections
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.HomepageApi()
+api_instance = lookerapi.HomepageApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 sorts = 'sorts_example' # str | Fields to sort by. (optional)
 
@@ -129,13 +129,13 @@ Create Homepage Item
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.HomepageApi()
-body = swagger_client.HomepageItem() # HomepageItem | Homepage Item (optional)
+api_instance = lookerapi.HomepageApi()
+body = lookerapi.HomepageItem() # HomepageItem | Homepage Item (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -179,13 +179,13 @@ Create Homepage section
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.HomepageApi()
-body = swagger_client.HomepageSection() # HomepageSection | Homepage section (optional)
+api_instance = lookerapi.HomepageApi()
+body = lookerapi.HomepageSection() # HomepageSection | Homepage section (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -229,12 +229,12 @@ Delete Homepage Item
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.HomepageApi()
+api_instance = lookerapi.HomepageApi()
 homepage_item_id = 789 # int | Id of homepage_item
 
 try: 
@@ -277,12 +277,12 @@ Delete Homepage section
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.HomepageApi()
+api_instance = lookerapi.HomepageApi()
 homepage_section_id = 789 # int | Id of homepage_section
 
 try: 
@@ -325,12 +325,12 @@ Get Homepage Item
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.HomepageApi()
+api_instance = lookerapi.HomepageApi()
 homepage_item_id = 789 # int | Id of homepage item
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -375,12 +375,12 @@ Get Homepage section
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.HomepageApi()
+api_instance = lookerapi.HomepageApi()
 homepage_section_id = 789 # int | Id of homepage section
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -425,14 +425,14 @@ Update Homepage Item
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.HomepageApi()
+api_instance = lookerapi.HomepageApi()
 homepage_item_id = 789 # int | Id of homepage item
-body = swagger_client.HomepageItem() # HomepageItem | Homepage Item
+body = lookerapi.HomepageItem() # HomepageItem | Homepage Item
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -477,14 +477,14 @@ Update Homepage section
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.HomepageApi()
+api_instance = lookerapi.HomepageApi()
 homepage_section_id = 789 # int | Id of homepage section
-body = swagger_client.HomepageSection() # HomepageSection | Homepage section
+body = lookerapi.HomepageSection() # HomepageSection | Homepage section
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 

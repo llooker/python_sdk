@@ -1,4 +1,4 @@
-# swagger_client.DashboardApi
+# lookerapi.DashboardApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -25,12 +25,12 @@ Get All Dashboards
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DashboardApi()
+api_instance = lookerapi.DashboardApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -73,13 +73,13 @@ Create Dashboard
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DashboardApi()
-body = swagger_client.Dashboard() # Dashboard | Dashboard (optional)
+api_instance = lookerapi.DashboardApi()
+body = lookerapi.Dashboard() # Dashboard | Dashboard (optional)
 
 try: 
     # Create Dashboard
@@ -121,14 +121,14 @@ Create Dashboard Prefetch
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DashboardApi()
+api_instance = lookerapi.DashboardApi()
 dashboard_id = 'dashboard_id_example' # str | Id of dashboard
-body = swagger_client.PrefetchDashboardRequest() # PrefetchDashboardRequest | Parameters for prefetch request (optional)
+body = lookerapi.PrefetchDashboardRequest() # PrefetchDashboardRequest | Parameters for prefetch request (optional)
 
 try: 
     # Create Dashboard Prefetch
@@ -171,12 +171,12 @@ Get Dashboard
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DashboardApi()
+api_instance = lookerapi.DashboardApi()
 dashboard_id = 'dashboard_id_example' # str | Id of dashboard
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -221,14 +221,14 @@ Get Dashboard Prefetch
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DashboardApi()
+api_instance = lookerapi.DashboardApi()
 dashboard_id = 'dashboard_id_example' # str | Id of dashboard
-dashboard_filters = [swagger_client.PrefetchDashboardFilterValue()] # list[PrefetchDashboardFilterValue] | JSON encoded string of Dashboard filters that were applied to prefetch (optional)
+dashboard_filters = [lookerapi.PrefetchDashboardFilterValue()] # list[PrefetchDashboardFilterValue] | JSON encoded string of Dashboard filters that were applied to prefetch (optional)
 
 try: 
     # Get Dashboard Prefetch
@@ -271,12 +271,12 @@ Delete Dashboard
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DashboardApi()
+api_instance = lookerapi.DashboardApi()
 dashboard_id = 'dashboard_id_example' # str | Id of dashboard
 
 try: 
@@ -319,12 +319,12 @@ Search Dashboards
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DashboardApi()
+api_instance = lookerapi.DashboardApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 id = 789 # int | Match dashboard id. (optional)
 page = 789 # int | Requested page. (optional)
@@ -393,14 +393,14 @@ Update Dashboard
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DashboardApi()
+api_instance = lookerapi.DashboardApi()
 dashboard_id = 'dashboard_id_example' # str | Id of dashboard
-body = swagger_client.Dashboard() # Dashboard | Dashboard
+body = lookerapi.Dashboard() # Dashboard | Dashboard
 
 try: 
     # Update Dashboard

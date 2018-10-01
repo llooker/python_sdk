@@ -1,4 +1,4 @@
-# swagger_client.ConnectionApi
+# lookerapi.ConnectionApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -26,12 +26,12 @@ Get All Connections
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConnectionApi()
+api_instance = lookerapi.ConnectionApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -74,12 +74,12 @@ Get All Dialect Infos
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConnectionApi()
+api_instance = lookerapi.ConnectionApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -122,12 +122,12 @@ Get Connection
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConnectionApi()
+api_instance = lookerapi.ConnectionApi()
 connection_name = 'connection_name_example' # str | Name of connection
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -172,13 +172,13 @@ Create Connection
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConnectionApi()
-body = swagger_client.DBConnection() # DBConnection | Connection (optional)
+api_instance = lookerapi.ConnectionApi()
+body = lookerapi.DBConnection() # DBConnection | Connection (optional)
 
 try: 
     # Create Connection
@@ -220,12 +220,12 @@ Delete Connection
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConnectionApi()
+api_instance = lookerapi.ConnectionApi()
 connection_name = 'connection_name_example' # str | Name of connection
 
 try: 
@@ -268,12 +268,12 @@ Delete Connection
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConnectionApi()
+api_instance = lookerapi.ConnectionApi()
 connection_name = 'connection_name_example' # str | Name of connection
 override_context = 'override_context_example' # str | Context of connection override
 
@@ -318,12 +318,12 @@ Test Connection
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConnectionApi()
+api_instance = lookerapi.ConnectionApi()
 connection_name = 'connection_name_example' # str | Name of connection
 tests = ['tests_example'] # list[str] | Array of names of tests to run (optional)
 
@@ -368,13 +368,13 @@ Test Connection Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConnectionApi()
-body = swagger_client.DBConnection() # DBConnection | Connection (optional)
+api_instance = lookerapi.ConnectionApi()
+body = lookerapi.DBConnection() # DBConnection | Connection (optional)
 tests = ['tests_example'] # list[str] | Array of names of tests to run (optional)
 
 try: 
@@ -418,14 +418,14 @@ Update Connection
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConnectionApi()
+api_instance = lookerapi.ConnectionApi()
 connection_name = 'connection_name_example' # str | Name of connection
-body = swagger_client.DBConnection() # DBConnection | Connection
+body = lookerapi.DBConnection() # DBConnection | Connection
 
 try: 
     # Update Connection

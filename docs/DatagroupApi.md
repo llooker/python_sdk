@@ -1,4 +1,4 @@
-# swagger_client.DatagroupApi
+# lookerapi.DatagroupApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -20,12 +20,12 @@ Get All Datagroups
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DatagroupApi()
+api_instance = lookerapi.DatagroupApi()
 
 try: 
     # Get All Datagroups
@@ -64,12 +64,12 @@ Get Datagroup
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DatagroupApi()
+api_instance = lookerapi.DatagroupApi()
 datagroup_id = 'datagroup_id_example' # str | ID of datagroup.
 
 try: 
@@ -112,14 +112,14 @@ Update Datagroup
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DatagroupApi()
+api_instance = lookerapi.DatagroupApi()
 datagroup_id = 'datagroup_id_example' # str | ID of datagroup.
-body = swagger_client.Datagroup() # Datagroup | Datagroup
+body = lookerapi.Datagroup() # Datagroup | Datagroup
 
 try: 
     # Update Datagroup

@@ -1,4 +1,4 @@
-# swagger_client.AuthApi
+# lookerapi.AuthApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -35,13 +35,13 @@ Create OIDC Test Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
-body = swagger_client.OIDCConfig() # OIDCConfig | OIDC test config
+api_instance = lookerapi.AuthApi()
+body = lookerapi.OIDCConfig() # OIDCConfig | OIDC test config
 
 try: 
     # Create OIDC Test Configuration
@@ -83,13 +83,13 @@ Create SAML Test Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
-body = swagger_client.SamlConfig() # SamlConfig | SAML test config
+api_instance = lookerapi.AuthApi()
+body = lookerapi.SamlConfig() # SamlConfig | SAML test config
 
 try: 
     # Create SAML Test Configuration
@@ -131,12 +131,12 @@ Delete OIDC Test Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
+api_instance = lookerapi.AuthApi()
 test_slug = 'test_slug_example' # str | Slug of test config
 
 try: 
@@ -179,12 +179,12 @@ Delete SAML Test Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
+api_instance = lookerapi.AuthApi()
 test_slug = 'test_slug_example' # str | Slug of test config
 
 try: 
@@ -227,12 +227,12 @@ Parse SAML IdP Url
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
+api_instance = lookerapi.AuthApi()
 body = 'body_example' # str | SAML IdP metadata public url
 
 try: 
@@ -275,12 +275,12 @@ Get LDAP Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
+api_instance = lookerapi.AuthApi()
 
 try: 
     # Get LDAP Configuration
@@ -319,12 +319,12 @@ Get OIDC Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
+api_instance = lookerapi.AuthApi()
 
 try: 
     # Get OIDC Configuration
@@ -363,12 +363,12 @@ Get OIDC Test Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
+api_instance = lookerapi.AuthApi()
 test_slug = 'test_slug_example' # str | Slug of test config
 
 try: 
@@ -411,12 +411,12 @@ Parse SAML IdP XML
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
+api_instance = lookerapi.AuthApi()
 body = 'body_example' # str | SAML IdP metadata xml
 
 try: 
@@ -459,12 +459,12 @@ Get SAML Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
+api_instance = lookerapi.AuthApi()
 
 try: 
     # Get SAML Configuration
@@ -503,12 +503,12 @@ Get SAML Test Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
+api_instance = lookerapi.AuthApi()
 test_slug = 'test_slug_example' # str | Slug of test config
 
 try: 
@@ -551,13 +551,13 @@ Test LDAP Auth
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
-body = swagger_client.LDAPConfig() # LDAPConfig | LDAP Config
+api_instance = lookerapi.AuthApi()
+body = lookerapi.LDAPConfig() # LDAPConfig | LDAP Config
 
 try: 
     # Test LDAP Auth
@@ -599,13 +599,13 @@ Test LDAP Connection
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
-body = swagger_client.LDAPConfig() # LDAPConfig | LDAP Config
+api_instance = lookerapi.AuthApi()
+body = lookerapi.LDAPConfig() # LDAPConfig | LDAP Config
 
 try: 
     # Test LDAP Connection
@@ -647,13 +647,13 @@ Test LDAP User Auth
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
-body = swagger_client.LDAPConfig() # LDAPConfig | LDAP Config
+api_instance = lookerapi.AuthApi()
+body = lookerapi.LDAPConfig() # LDAPConfig | LDAP Config
 
 try: 
     # Test LDAP User Auth
@@ -695,13 +695,13 @@ Test LDAP User Info
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
-body = swagger_client.LDAPConfig() # LDAPConfig | LDAP Config
+api_instance = lookerapi.AuthApi()
+body = lookerapi.LDAPConfig() # LDAPConfig | LDAP Config
 
 try: 
     # Test LDAP User Info
@@ -743,13 +743,13 @@ Update LDAP Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
-body = swagger_client.LDAPConfig() # LDAPConfig | LDAP Config
+api_instance = lookerapi.AuthApi()
+body = lookerapi.LDAPConfig() # LDAPConfig | LDAP Config
 
 try: 
     # Update LDAP Configuration
@@ -791,13 +791,13 @@ Update OIDC Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
-body = swagger_client.OIDCConfig() # OIDCConfig | OIDC Config
+api_instance = lookerapi.AuthApi()
+body = lookerapi.OIDCConfig() # OIDCConfig | OIDC Config
 
 try: 
     # Update OIDC Configuration
@@ -839,13 +839,13 @@ Update SAML Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AuthApi()
-body = swagger_client.SamlConfig() # SamlConfig | SAML Config
+api_instance = lookerapi.AuthApi()
+body = lookerapi.SamlConfig() # SamlConfig | SAML Config
 
 try: 
     # Update SAML Configuration

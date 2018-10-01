@@ -1,4 +1,4 @@
-# swagger_client.RunningQueriesApi
+# lookerapi.RunningQueriesApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -19,12 +19,12 @@ Get information about all running queries.
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RunningQueriesApi()
+api_instance = lookerapi.RunningQueriesApi()
 
 try: 
     # Get All Running Queries
@@ -63,12 +63,12 @@ Kill a query with a specific query_task_id.
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RunningQueriesApi()
+api_instance = lookerapi.RunningQueriesApi()
 query_task_id = 'query_task_id_example' # str | Query task id.
 
 try: 

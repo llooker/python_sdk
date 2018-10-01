@@ -1,4 +1,4 @@
-# swagger_client.ScheduledPlanApi
+# lookerapi.ScheduledPlanApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -27,12 +27,12 @@ Get All Scheduled Plans
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ScheduledPlanApi()
+api_instance = lookerapi.ScheduledPlanApi()
 user_id = 789 # int | User Id (default is requesting user if not specified) (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -77,13 +77,13 @@ Create Scheduled Plan
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ScheduledPlanApi()
-body = swagger_client.ScheduledPlan() # ScheduledPlan | Scheduled Plan (optional)
+api_instance = lookerapi.ScheduledPlanApi()
+body = lookerapi.ScheduledPlan() # ScheduledPlan | Scheduled Plan (optional)
 
 try: 
     # Create Scheduled Plan
@@ -125,12 +125,12 @@ Delete Scheduled Plan
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ScheduledPlanApi()
+api_instance = lookerapi.ScheduledPlanApi()
 scheduled_plan_id = 789 # int | Scheduled Plan Id
 
 try: 
@@ -173,12 +173,12 @@ Get Scheduled Plan
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ScheduledPlanApi()
+api_instance = lookerapi.ScheduledPlanApi()
 scheduled_plan_id = 789 # int | Scheduled Plan Id
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -223,13 +223,13 @@ Run Scheduled Plan Once
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ScheduledPlanApi()
-body = swagger_client.ScheduledPlan() # ScheduledPlan | Scheduled Plan (optional)
+api_instance = lookerapi.ScheduledPlanApi()
+body = lookerapi.ScheduledPlan() # ScheduledPlan | Scheduled Plan (optional)
 
 try: 
     # Run Scheduled Plan Once
@@ -271,12 +271,12 @@ Scheduled Plans for Dashboard
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ScheduledPlanApi()
+api_instance = lookerapi.ScheduledPlanApi()
 dashboard_id = 789 # int | Dashboard Id
 user_id = 789 # int | User Id (default is requesting user if not specified) (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
@@ -323,12 +323,12 @@ Scheduled Plans for Look
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ScheduledPlanApi()
+api_instance = lookerapi.ScheduledPlanApi()
 look_id = 789 # int | Look Id
 user_id = 789 # int | User Id (default is requesting user if not specified) (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
@@ -375,12 +375,12 @@ Scheduled Plans for LookML Dashboard
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ScheduledPlanApi()
+api_instance = lookerapi.ScheduledPlanApi()
 lookml_dashboard_id = 789 # int | LookML Dashboard Id
 user_id = 789 # int | User Id (default is requesting user if not specified) (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
@@ -427,12 +427,12 @@ Scheduled Plans for Space
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ScheduledPlanApi()
+api_instance = lookerapi.ScheduledPlanApi()
 space_id = 789 # int | Space Id
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -477,14 +477,14 @@ Update Scheduled Plan
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ScheduledPlanApi()
+api_instance = lookerapi.ScheduledPlanApi()
 scheduled_plan_id = 789 # int | Scheduled Plan Id
-body = swagger_client.ScheduledPlan() # ScheduledPlan | Scheduled Plan
+body = lookerapi.ScheduledPlan() # ScheduledPlan | Scheduled Plan
 
 try: 
     # Update Scheduled Plan

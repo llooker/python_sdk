@@ -1,4 +1,4 @@
-# swagger_client.IntegrationApi
+# lookerapi.IntegrationApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -27,12 +27,12 @@ Accepts the legal agreement for a given integration hub. This only works for int
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.IntegrationApi()
+api_instance = lookerapi.IntegrationApi()
 integration_hub_id = 789 # int | Id of integration_hub
 
 try: 
@@ -75,12 +75,12 @@ Get All Integration Hubs
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.IntegrationApi()
+api_instance = lookerapi.IntegrationApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -123,12 +123,12 @@ Get All Integrations
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.IntegrationApi()
+api_instance = lookerapi.IntegrationApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 integration_hub_id = 'integration_hub_id_example' # str | Filter to a specific provider (optional)
 
@@ -173,13 +173,13 @@ Create Integration Hub
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.IntegrationApi()
-body = swagger_client.IntegrationHub() # IntegrationHub | Integration Hub (optional)
+api_instance = lookerapi.IntegrationApi()
+body = lookerapi.IntegrationHub() # IntegrationHub | Integration Hub (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -223,12 +223,12 @@ Delete Integration Hub
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.IntegrationApi()
+api_instance = lookerapi.IntegrationApi()
 integration_hub_id = 789 # int | Id of integration_hub
 
 try: 
@@ -271,12 +271,12 @@ Returns the Integration form for presentation to the user.
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.IntegrationApi()
+api_instance = lookerapi.IntegrationApi()
 integration_id = 789 # int | Id of Integration
 
 try: 
@@ -319,12 +319,12 @@ Get Integration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.IntegrationApi()
+api_instance = lookerapi.IntegrationApi()
 integration_id = 789 # int | Id of Integration
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -369,12 +369,12 @@ Get Integration Hub
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.IntegrationApi()
+api_instance = lookerapi.IntegrationApi()
 integration_hub_id = 789 # int | Id of Integration Hub
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -419,14 +419,14 @@ Update Integration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.IntegrationApi()
+api_instance = lookerapi.IntegrationApi()
 integration_id = 789 # int | Id of Integration
-body = swagger_client.Integration() # Integration | Integration
+body = lookerapi.Integration() # Integration | Integration
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -471,14 +471,14 @@ Update Integration Hub
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.IntegrationApi()
+api_instance = lookerapi.IntegrationApi()
 integration_hub_id = 789 # int | Id of Integration Hub
-body = swagger_client.IntegrationHub() # IntegrationHub | Integration Hub
+body = lookerapi.IntegrationHub() # IntegrationHub | Integration Hub
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 

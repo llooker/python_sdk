@@ -1,4 +1,4 @@
-# swagger_client.GroupApi
+# lookerapi.GroupApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -30,14 +30,14 @@ Add a Group to Group
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi()
+api_instance = lookerapi.GroupApi()
 group_id = 789 # int | Id of group
-body = swagger_client.GroupIdForGroupInclusion() # GroupIdForGroupInclusion | Group id to add (optional)
+body = lookerapi.GroupIdForGroupInclusion() # GroupIdForGroupInclusion | Group id to add (optional)
 
 try: 
     # Add a Group to Group
@@ -80,14 +80,14 @@ Add a User to Group
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi()
+api_instance = lookerapi.GroupApi()
 group_id = 789 # int | Id of group
-body = swagger_client.GroupIdForGroupUserInclusion() # GroupIdForGroupUserInclusion | User id to add (optional)
+body = lookerapi.GroupIdForGroupUserInclusion() # GroupIdForGroupUserInclusion | User id to add (optional)
 
 try: 
     # Add a User to Group
@@ -130,12 +130,12 @@ Get All Groups in Group
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi()
+api_instance = lookerapi.GroupApi()
 group_id = 789 # int | Id of group
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -180,12 +180,12 @@ Get All Users in Group
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi()
+api_instance = lookerapi.GroupApi()
 group_id = 789 # int | Id of group
 fields = 'fields_example' # str | Requested fields. (optional)
 page = 789 # int | Requested page. (optional)
@@ -236,12 +236,12 @@ Get All Groups
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi()
+api_instance = lookerapi.GroupApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 page = 789 # int | Requested page. (optional)
 per_page = 789 # int | Results per page. (optional)
@@ -296,13 +296,13 @@ Create Group
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi()
-body = swagger_client.Group() # Group | Group (optional)
+api_instance = lookerapi.GroupApi()
+body = lookerapi.Group() # Group | Group (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -346,12 +346,12 @@ Delete Group
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi()
+api_instance = lookerapi.GroupApi()
 group_id = 789 # int | Id of group
 
 try: 
@@ -394,12 +394,12 @@ Deletes a Group from Group
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi()
+api_instance = lookerapi.GroupApi()
 group_id = 789 # int | Id of group
 deleting_group_id = 789 # int | Id of group to delete
 
@@ -443,12 +443,12 @@ Remove a User from Group
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi()
+api_instance = lookerapi.GroupApi()
 group_id = 789 # int | Id of group
 user_id = 789 # int | Id of user to remove from group
 
@@ -492,12 +492,12 @@ Delete User Attribute Group Value
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi()
+api_instance = lookerapi.GroupApi()
 group_id = 789 # int | Id of group
 user_attribute_id = 789 # int | Id of user attribute
 
@@ -541,12 +541,12 @@ Get Group
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi()
+api_instance = lookerapi.GroupApi()
 group_id = 789 # int | Id of group
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -591,14 +591,14 @@ Update Group
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi()
+api_instance = lookerapi.GroupApi()
 group_id = 789 # int | Id of group
-body = swagger_client.Group() # Group | Group
+body = lookerapi.Group() # Group | Group
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -643,15 +643,15 @@ Set User Attribute Group Value
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi()
+api_instance = lookerapi.GroupApi()
 group_id = 789 # int | Id of group
 user_attribute_id = 789 # int | Id of user attribute
-body = swagger_client.UserAttributeGroupValue() # UserAttributeGroupValue | New value for group.
+body = lookerapi.UserAttributeGroupValue() # UserAttributeGroupValue | New value for group.
 
 try: 
     # Set User Attribute Group Value

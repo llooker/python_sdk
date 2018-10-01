@@ -1,4 +1,4 @@
-# swagger_client.RenderTaskApi
+# lookerapi.RenderTaskApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -23,15 +23,15 @@ Create Dashboard Render Task
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RenderTaskApi()
+api_instance = lookerapi.RenderTaskApi()
 dashboard_id = 789 # int | Id of dashboard to render
 result_format = 'result_format_example' # str | Output type: pdf, png, or jpg
-body = swagger_client.CreateDashboardRenderTask() # CreateDashboardRenderTask | Dashboard render task parameters
+body = lookerapi.CreateDashboardRenderTask() # CreateDashboardRenderTask | Dashboard render task parameters
 width = 789 # int | Output width in pixels
 height = 789 # int | Output height in pixels
 fields = 'fields_example' # str | Requested fields. (optional)
@@ -81,12 +81,12 @@ Create Look Render Task
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RenderTaskApi()
+api_instance = lookerapi.RenderTaskApi()
 look_id = 789 # int | Id of look to render
 result_format = 'result_format_example' # str | Output type: png, or jpg
 width = 789 # int | Output width in pixels
@@ -137,15 +137,15 @@ Create Lookml Dashboard Render Task
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RenderTaskApi()
+api_instance = lookerapi.RenderTaskApi()
 dashboard_id = 'dashboard_id_example' # str | Id of lookml dashboard to render
 result_format = 'result_format_example' # str | Output type: pdf, png, or jpg
-body = swagger_client.CreateDashboardRenderTask() # CreateDashboardRenderTask | Dashboard render task parameters
+body = lookerapi.CreateDashboardRenderTask() # CreateDashboardRenderTask | Dashboard render task parameters
 width = 789 # int | Output width in pixels
 height = 789 # int | Output height in pixels
 fields = 'fields_example' # str | Requested fields. (optional)
@@ -195,12 +195,12 @@ Create Query Render Task
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RenderTaskApi()
+api_instance = lookerapi.RenderTaskApi()
 query_id = 789 # int | Id of the query to render
 result_format = 'result_format_example' # str | Output type: png or jpg
 width = 789 # int | Output width in pixels
@@ -251,12 +251,12 @@ Get Render Task
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RenderTaskApi()
+api_instance = lookerapi.RenderTaskApi()
 render_task_id = 'render_task_id_example' # str | Id of render task
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -301,12 +301,12 @@ Render Task Results
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RenderTaskApi()
+api_instance = lookerapi.RenderTaskApi()
 render_task_id = 'render_task_id_example' # str | Id of render task
 
 try: 

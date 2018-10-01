@@ -1,4 +1,4 @@
-# swagger_client.SessionApi
+# lookerapi.SessionApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -19,12 +19,12 @@ Get Session
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SessionApi()
+api_instance = lookerapi.SessionApi()
 
 try: 
     # Get Session
@@ -63,13 +63,13 @@ Update Session
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SessionApi()
-body = swagger_client.ApiSession() # ApiSession | Session
+api_instance = lookerapi.SessionApi()
+body = lookerapi.ApiSession() # ApiSession | Session
 
 try: 
     # Update Session

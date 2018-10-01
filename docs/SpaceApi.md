@@ -1,4 +1,4 @@
-# swagger_client.SpaceApi
+# lookerapi.SpaceApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -29,12 +29,12 @@ Get All Spaces
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpaceApi()
+api_instance = lookerapi.SpaceApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -77,13 +77,13 @@ Create Space
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpaceApi()
-body = swagger_client.Space() # Space | Space (optional)
+api_instance = lookerapi.SpaceApi()
+body = lookerapi.Space() # Space | Space (optional)
 
 try: 
     # Create Space
@@ -125,12 +125,12 @@ Delete Space
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpaceApi()
+api_instance = lookerapi.SpaceApi()
 space_id = 'space_id_example' # str | Id of space
 
 try: 
@@ -173,12 +173,12 @@ Search for spaces by creator id, parent id, name, etc
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpaceApi()
+api_instance = lookerapi.SpaceApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 page = 789 # int | Requested page. (optional)
 per_page = 789 # int | Results per page. (optional)
@@ -239,12 +239,12 @@ Get Space
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpaceApi()
+api_instance = lookerapi.SpaceApi()
 space_id = 'space_id_example' # str | Id of space
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -289,12 +289,12 @@ Get Space Ancestors
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpaceApi()
+api_instance = lookerapi.SpaceApi()
 space_id = 'space_id_example' # str | Id of space
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -339,12 +339,12 @@ Get Space Children
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpaceApi()
+api_instance = lookerapi.SpaceApi()
 space_id = 'space_id_example' # str | Id of space
 fields = 'fields_example' # str | Requested fields. (optional)
 page = 789 # int | Requested page. (optional)
@@ -395,12 +395,12 @@ Search Space Children
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpaceApi()
+api_instance = lookerapi.SpaceApi()
 space_id = 'space_id_example' # str | Id of space
 fields = 'fields_example' # str | Requested fields. (optional)
 sorts = 'sorts_example' # str | Fields to sort by. (optional)
@@ -449,12 +449,12 @@ Get Space Dashboards
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpaceApi()
+api_instance = lookerapi.SpaceApi()
 space_id = 'space_id_example' # str | Id of space
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -499,12 +499,12 @@ Get Space Looks
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpaceApi()
+api_instance = lookerapi.SpaceApi()
 space_id = 'space_id_example' # str | Id of space
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -549,12 +549,12 @@ Get Space Parent
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpaceApi()
+api_instance = lookerapi.SpaceApi()
 space_id = 'space_id_example' # str | Id of space
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -599,14 +599,14 @@ Update Space
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpaceApi()
+api_instance = lookerapi.SpaceApi()
 space_id = 'space_id_example' # str | Id of space
-body = swagger_client.Space() # Space | Space
+body = lookerapi.Space() # Space | Space
 
 try: 
     # Update Space

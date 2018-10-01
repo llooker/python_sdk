@@ -1,4 +1,4 @@
-# swagger_client.WorkspaceApi
+# lookerapi.WorkspaceApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -19,12 +19,12 @@ Get All Workspaces
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WorkspaceApi()
+api_instance = lookerapi.WorkspaceApi()
 
 try: 
     # Get All Workspaces
@@ -63,12 +63,12 @@ Get Workspace
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WorkspaceApi()
+api_instance = lookerapi.WorkspaceApi()
 workspace_id = 'workspace_id_example' # str | Id of the workspace 
 
 try: 

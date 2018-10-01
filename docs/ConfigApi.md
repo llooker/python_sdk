@@ -1,4 +1,4 @@
-# swagger_client.ConfigApi
+# lookerapi.ConfigApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -26,12 +26,12 @@ Get All Legacy Features
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConfigApi()
+api_instance = lookerapi.ConfigApi()
 
 try: 
     # Get All Legacy Features
@@ -70,12 +70,12 @@ Get All Timezones
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConfigApi()
+api_instance = lookerapi.ConfigApi()
 
 try: 
     # Get All Timezones
@@ -114,12 +114,12 @@ Get Backup Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConfigApi()
+api_instance = lookerapi.ConfigApi()
 
 try: 
     # Get Backup Configuration
@@ -158,12 +158,12 @@ Get Legacy Feature
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConfigApi()
+api_instance = lookerapi.ConfigApi()
 legacy_feature_id = 789 # int | id of legacy feature
 
 try: 
@@ -206,13 +206,13 @@ Update Backup Configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConfigApi()
-body = swagger_client.BackupConfiguration() # BackupConfiguration | Options for Backup Configuration
+api_instance = lookerapi.ConfigApi()
+body = lookerapi.BackupConfiguration() # BackupConfiguration | Options for Backup Configuration
 
 try: 
     # Update Backup Configuration
@@ -254,14 +254,14 @@ Update Legacy Feature
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConfigApi()
+api_instance = lookerapi.ConfigApi()
 legacy_feature_id = 789 # int | id of legacy feature
-body = swagger_client.LegacyFeature() # LegacyFeature | Legacy Feature
+body = lookerapi.LegacyFeature() # LegacyFeature | Legacy Feature
 
 try: 
     # Update Legacy Feature
@@ -304,13 +304,13 @@ Update Whitelabel configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConfigApi()
-body = swagger_client.WhitelabelConfiguration() # WhitelabelConfiguration | Whitelabel configuration
+api_instance = lookerapi.ConfigApi()
+body = lookerapi.WhitelabelConfiguration() # WhitelabelConfiguration | Whitelabel configuration
 
 try: 
     # Update Whitelabel configuration
@@ -352,12 +352,12 @@ Get ApiVersion
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConfigApi()
+api_instance = lookerapi.ConfigApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -400,12 +400,12 @@ Get Whitelabel configuration
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ConfigApi()
+api_instance = lookerapi.ConfigApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 

@@ -1,4 +1,4 @@
-# swagger_client.ProjectApi
+# lookerapi.ProjectApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -33,12 +33,12 @@ Get All Git Branchs
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Project Id
 
 try: 
@@ -81,12 +81,12 @@ Get All Git Connection Tests
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Project Id
 
 try: 
@@ -129,12 +129,12 @@ Get All Project Files
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Project Id
 fields = 'fields_example' # str | Requested fields (optional)
 
@@ -179,12 +179,12 @@ Get All Projects
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 fields = 'fields_example' # str | Requested fields (optional)
 
 try: 
@@ -227,12 +227,12 @@ Create Deploy Key
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Project Id
 
 try: 
@@ -275,13 +275,13 @@ Create Project
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
-body = swagger_client.Project() # Project | Project (optional)
+api_instance = lookerapi.ProjectApi()
+body = lookerapi.Project() # Project | Project (optional)
 
 try: 
     # Create Project
@@ -323,12 +323,12 @@ Git Deploy Key
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Project Id
 
 try: 
@@ -371,12 +371,12 @@ Get Project
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Project Id
 fields = 'fields_example' # str | Requested fields (optional)
 
@@ -421,12 +421,12 @@ Get Project File
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Project Id
 file_id = 'file_id_example' # str | File Id
 fields = 'fields_example' # str | Requested fields (optional)
@@ -473,12 +473,12 @@ Cached Project Validation Results
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Project Id
 fields = 'fields_example' # str | Requested fields (optional)
 
@@ -523,12 +523,12 @@ Get Project Workspace
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Project Id
 fields = 'fields_example' # str | Requested fields (optional)
 
@@ -573,12 +573,12 @@ Reset To Production
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Id of project
 
 try: 
@@ -621,12 +621,12 @@ Reset To Remote
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Id of project
 
 try: 
@@ -669,12 +669,12 @@ Run Git Connection Test
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Project Id
 test_id = 'test_id_example' # str | Test Id
 
@@ -719,14 +719,14 @@ Update Project
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Project Id
-body = swagger_client.Project() # Project | Project
+body = lookerapi.Project() # Project | Project
 fields = 'fields_example' # str | Requested fields (optional)
 
 try: 
@@ -771,12 +771,12 @@ Validate Project
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectApi()
+api_instance = lookerapi.ProjectApi()
 project_id = 'project_id_example' # str | Project Id
 fields = 'fields_example' # str | Requested fields (optional)
 

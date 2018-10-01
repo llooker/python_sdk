@@ -1,4 +1,4 @@
-# swagger_client.RoleApi
+# lookerapi.RoleApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -37,12 +37,12 @@ Get All Model Sets
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -85,12 +85,12 @@ Get All Permission Sets
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -133,12 +133,12 @@ Get All Permissions
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 
 try: 
     # Get All Permissions
@@ -177,12 +177,12 @@ Get All Roles
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 ids = [56] # list[int] | Optional list of ids to get specific roles. (optional)
 
@@ -227,13 +227,13 @@ Create Model Set
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
-body = swagger_client.ModelSet() # ModelSet | ModelSet (optional)
+api_instance = lookerapi.RoleApi()
+body = lookerapi.ModelSet() # ModelSet | ModelSet (optional)
 
 try: 
     # Create Model Set
@@ -275,13 +275,13 @@ Create Permission Set
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
-body = swagger_client.PermissionSet() # PermissionSet | Permission Set (optional)
+api_instance = lookerapi.RoleApi()
+body = lookerapi.PermissionSet() # PermissionSet | Permission Set (optional)
 
 try: 
     # Create Permission Set
@@ -323,13 +323,13 @@ Create Role
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
-body = swagger_client.Role() # Role | Role (optional)
+api_instance = lookerapi.RoleApi()
+body = lookerapi.Role() # Role | Role (optional)
 
 try: 
     # Create Role
@@ -371,12 +371,12 @@ Delete Model Set
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 model_set_id = 789 # int | id of model set
 
 try: 
@@ -419,12 +419,12 @@ Delete Permission Set
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 permission_set_id = 789 # int | Id of permission set
 
 try: 
@@ -467,12 +467,12 @@ Delete Role
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 role_id = 789 # int | id of role
 
 try: 
@@ -515,12 +515,12 @@ Get Model Set
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 model_set_id = 789 # int | Id of model set
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -565,12 +565,12 @@ Get Permission Set
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 permission_set_id = 789 # int | Id of permission set
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -615,12 +615,12 @@ Get Role
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 role_id = 789 # int | id of role
 
 try: 
@@ -663,12 +663,12 @@ Get Role Groups
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 role_id = 789 # int | id of role
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -713,12 +713,12 @@ Get Role Users
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 role_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 direct_association_only = true # bool | Get only users associated directly with the role: exclude those only associated through groups. (optional)
@@ -765,14 +765,14 @@ Update Role Groups
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 role_id = 789 # int | Id of Role
-body = [swagger_client.list[int]()] # list[int] | Array of Group Ids
+body = [lookerapi.list[int]()] # list[int] | Array of Group Ids
 
 try: 
     # Update Role Groups
@@ -815,14 +815,14 @@ Update Role Users
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 role_id = 789 # int | id of role
-body = [swagger_client.list[int]()] # list[int] | array of user ids for role
+body = [lookerapi.list[int]()] # list[int] | array of user ids for role
 
 try: 
     # Update Role Users
@@ -865,14 +865,14 @@ Update Model Set
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 model_set_id = 789 # int | id of model set
-body = swagger_client.ModelSet() # ModelSet | ModelSet
+body = lookerapi.ModelSet() # ModelSet | ModelSet
 
 try: 
     # Update Model Set
@@ -915,14 +915,14 @@ Update Permission Set
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 permission_set_id = 789 # int | id of permission set
-body = swagger_client.PermissionSet() # PermissionSet | Permission Set
+body = lookerapi.PermissionSet() # PermissionSet | Permission Set
 
 try: 
     # Update Permission Set
@@ -965,14 +965,14 @@ Update Role
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RoleApi()
+api_instance = lookerapi.RoleApi()
 role_id = 789 # int | id of role
-body = swagger_client.Role() # Role | Role
+body = lookerapi.Role() # Role | Role
 
 try: 
     # Update Role

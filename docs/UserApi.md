@@ -1,4 +1,4 @@
-# swagger_client.UserApi
+# lookerapi.UserApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -67,12 +67,12 @@ Get All Access Filters
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -117,12 +117,12 @@ Get All API 3 Credentials
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -167,12 +167,12 @@ Get All Embedding Credentials
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -217,12 +217,12 @@ Get All Web Login Sessions
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -267,12 +267,12 @@ Get All Users
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 page = 789 # int | Requested page. (optional)
 per_page = 789 # int | Results per page. (optional)
@@ -323,13 +323,13 @@ Create User
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
-body = swagger_client.User() # User | User (optional)
+api_instance = lookerapi.UserApi()
+body = lookerapi.User() # User | User (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -373,14 +373,14 @@ Create Access Filter
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
-body = swagger_client.AccessFilter() # AccessFilter | Access Filter (optional)
+body = lookerapi.AccessFilter() # AccessFilter | Access Filter (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -425,14 +425,14 @@ Create API Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | Id of user
-body = swagger_client.CredentialsApi() # CredentialsApi | API Credential (optional)
+body = lookerapi.CredentialsApi() # CredentialsApi | API Credential (optional)
 
 try: 
     # Create API Credential
@@ -475,14 +475,14 @@ Create API 3 Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
-body = swagger_client.CredentialsApi3() # CredentialsApi3 | API 3 Credential (optional)
+body = lookerapi.CredentialsApi3() # CredentialsApi3 | API 3 Credential (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -527,14 +527,14 @@ Create Email/Password Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
-body = swagger_client.CredentialsEmail() # CredentialsEmail | Email/Password Credential (optional)
+body = lookerapi.CredentialsEmail() # CredentialsEmail | Email/Password Credential (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -579,12 +579,12 @@ Create Password Reset Token
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | Id of user
 expires = true # bool | Expiring token. (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
@@ -631,14 +631,14 @@ Create Two-Factor Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
-body = swagger_client.CredentialsTotp() # CredentialsTotp | Two-Factor Credential (optional)
+body = lookerapi.CredentialsTotp() # CredentialsTotp | Two-Factor Credential (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -683,12 +683,12 @@ Delete User
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | Id of user
 
 try: 
@@ -731,12 +731,12 @@ Delete Access Filter
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 access_filter_id = 789 # int | id of Access Filter
 
@@ -781,12 +781,12 @@ Delete User Attribute User Value
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | Id of user
 user_attribute_id = 789 # int | Id of user attribute
 
@@ -830,12 +830,12 @@ Delete API Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 
 try: 
@@ -878,12 +878,12 @@ Delete API 3 Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 credentials_api3_id = 789 # int | id of API 3 Credential
 
@@ -928,12 +928,12 @@ Delete Email/Password Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 
 try: 
@@ -976,12 +976,12 @@ Delete Embedding Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 credentials_embed_id = 789 # int | id of Embedding Credential
 
@@ -1026,12 +1026,12 @@ Delete Google Auth Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 
 try: 
@@ -1074,12 +1074,12 @@ Delete LDAP Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 
 try: 
@@ -1122,12 +1122,12 @@ Delete Looker OpenId Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 
 try: 
@@ -1170,12 +1170,12 @@ Delete OIDC Auth Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 
 try: 
@@ -1218,12 +1218,12 @@ Delete Saml Auth Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 
 try: 
@@ -1266,12 +1266,12 @@ Delete Two-Factor Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 
 try: 
@@ -1314,12 +1314,12 @@ Delete Web Login Session
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 session_id = 789 # int | id of Web Login Session
 
@@ -1364,12 +1364,12 @@ Get Current User
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -1412,12 +1412,12 @@ Search Users
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 page = 789 # int | Requested page. (optional)
 per_page = 789 # int | Results per page. (optional)
@@ -1484,12 +1484,12 @@ Search User Names
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 pattern = 'pattern_example' # str | Pattern to match.
 fields = 'fields_example' # str | Requested fields. (optional)
 page = 789 # int | Requested page. (optional)
@@ -1552,15 +1552,15 @@ Set User Attribute User Value
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | Id of user
 user_attribute_id = 789 # int | Id of user attribute
-body = swagger_client.UserAttributeWithValue() # UserAttributeWithValue | New attribute value for user.
+body = lookerapi.UserAttributeWithValue() # UserAttributeWithValue | New attribute value for user.
 
 try: 
     # Set User Attribute User Value
@@ -1604,14 +1604,14 @@ Set User Roles
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
-body = [swagger_client.list[int]()] # list[int] | array of roles ids for user
+body = [lookerapi.list[int]()] # list[int] | array of roles ids for user
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -1656,14 +1656,14 @@ Update User
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | Id of user
-body = swagger_client.User() # User | User
+body = lookerapi.User() # User | User
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -1708,15 +1708,15 @@ Update Access Filter
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 access_filter_id = 789 # int | id of Access Filter
-body = swagger_client.AccessFilter() # AccessFilter | Access Filter
+body = lookerapi.AccessFilter() # AccessFilter | Access Filter
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -1762,14 +1762,14 @@ Update Email/Password Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
-body = swagger_client.CredentialsEmail() # CredentialsEmail | Email/Password Credential
+body = lookerapi.CredentialsEmail() # CredentialsEmail | Email/Password Credential
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -1814,12 +1814,12 @@ Get User by Id
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | Id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -1864,12 +1864,12 @@ Get Access Filter
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | Id of user
 access_filter_id = 789 # int | Id of Access Filter
 fields = 'fields_example' # str | Requested fields. (optional)
@@ -1916,12 +1916,12 @@ Get User Attribute Values
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | Id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 user_attribute_ids = [56] # list[int] | Specific user attributes to request. Omit or leave blank to request all user attributes. (optional)
@@ -1972,12 +1972,12 @@ Get API Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -2022,12 +2022,12 @@ Get API 3 Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | Id of user
 credentials_api3_id = 789 # int | Id of API 3 Credential
 fields = 'fields_example' # str | Requested fields. (optional)
@@ -2074,12 +2074,12 @@ Get Email/Password Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -2124,12 +2124,12 @@ Get Embedding Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | Id of user
 credentials_embed_id = 789 # int | Id of Embedding Credential
 fields = 'fields_example' # str | Requested fields. (optional)
@@ -2176,12 +2176,12 @@ Get Google Auth Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -2226,12 +2226,12 @@ Get LDAP Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -2276,12 +2276,12 @@ Get Looker OpenId Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -2326,12 +2326,12 @@ Get OIDC Auth Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -2376,12 +2376,12 @@ Get Saml Auth Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -2426,12 +2426,12 @@ Get Two-Factor Credential
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -2476,12 +2476,12 @@ Get User by Credential Id
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 credential_type = 'credential_type_example' # str | Type name of credential
 credential_id = 'credential_id_example' # str | Id of credential
 fields = 'fields_example' # str | Requested fields. (optional)
@@ -2528,12 +2528,12 @@ Get User Roles
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | id of user
 fields = 'fields_example' # str | Requested fields. (optional)
 direct_association_only = true # bool | Get only roles associated directly with the user: exclude those only associated through groups. (optional)
@@ -2580,12 +2580,12 @@ Get Web Login Session
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserApi()
+api_instance = lookerapi.UserApi()
 user_id = 789 # int | Id of user
 session_id = 789 # int | Id of Web Login Session
 fields = 'fields_example' # str | Requested fields. (optional)

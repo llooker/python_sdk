@@ -1,4 +1,4 @@
-# swagger_client.UserAttributeApi
+# lookerapi.UserAttributeApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -24,12 +24,12 @@ Get User Attribute Group Values
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserAttributeApi()
+api_instance = lookerapi.UserAttributeApi()
 user_attribute_id = 789 # int | Id of user attribute
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -74,12 +74,12 @@ Get All User Attributes
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserAttributeApi()
+api_instance = lookerapi.UserAttributeApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 sorts = 'sorts_example' # str | Fields to sort by. (optional)
 
@@ -124,13 +124,13 @@ Create User Attribute
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserAttributeApi()
-body = swagger_client.UserAttribute() # UserAttribute | User Attribute (optional)
+api_instance = lookerapi.UserAttributeApi()
+body = lookerapi.UserAttribute() # UserAttribute | User Attribute (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -174,12 +174,12 @@ Delete User Attribute
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserAttributeApi()
+api_instance = lookerapi.UserAttributeApi()
 user_attribute_id = 789 # int | Id of user_attribute
 
 try: 
@@ -222,14 +222,14 @@ Set User Attribute Group Values
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserAttributeApi()
+api_instance = lookerapi.UserAttributeApi()
 user_attribute_id = 789 # int | Id of user attribute
-body = [swagger_client.UserAttributeGroupValue()] # list[UserAttributeGroupValue] | Array of group values.
+body = [lookerapi.UserAttributeGroupValue()] # list[UserAttributeGroupValue] | Array of group values.
 
 try: 
     # Set User Attribute Group Values
@@ -272,14 +272,14 @@ Update User Attribute
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserAttributeApi()
+api_instance = lookerapi.UserAttributeApi()
 user_attribute_id = 789 # int | Id of user attribute
-body = swagger_client.UserAttribute() # UserAttribute | User Attribute
+body = lookerapi.UserAttribute() # UserAttribute | User Attribute
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -324,12 +324,12 @@ Get User Attribute
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserAttributeApi()
+api_instance = lookerapi.UserAttributeApi()
 user_attribute_id = 789 # int | Id of user attribute
 fields = 'fields_example' # str | Requested fields. (optional)
 

@@ -1,4 +1,4 @@
-# swagger_client.ContentApi
+# lookerapi.ContentApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -29,12 +29,12 @@ Get All Content Metadata Accesss
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ContentApi()
+api_instance = lookerapi.ContentApi()
 content_metadata_id = 789 # int | Id of content metadata (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -79,12 +79,12 @@ Get All Content Metadatas
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ContentApi()
+api_instance = lookerapi.ContentApi()
 parent_id = 789 # int | Parent space of content.
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -129,12 +129,12 @@ Get Favorite Content
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ContentApi()
+api_instance = lookerapi.ContentApi()
 content_favorite_id = 789 # int | Id of favorite content
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -179,12 +179,12 @@ Get Content Metadata
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ContentApi()
+api_instance = lookerapi.ContentApi()
 content_metadata_id = 789 # int | Id of content metadata
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -229,13 +229,13 @@ Create Favorite Content
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ContentApi()
-body = swagger_client.ContentFavorite() # ContentFavorite | Favorite Content (optional)
+api_instance = lookerapi.ContentApi()
+body = lookerapi.ContentFavorite() # ContentFavorite | Favorite Content (optional)
 
 try: 
     # Create Favorite Content
@@ -277,13 +277,13 @@ Create Content Metadata Access
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ContentApi()
-body = swagger_client.ContentMetaGroupUser() # ContentMetaGroupUser | Content Metadata Access (optional)
+api_instance = lookerapi.ContentApi()
+body = lookerapi.ContentMetaGroupUser() # ContentMetaGroupUser | Content Metadata Access (optional)
 
 try: 
     # Create Content Metadata Access
@@ -325,12 +325,12 @@ Delete Favorite Content
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ContentApi()
+api_instance = lookerapi.ContentApi()
 content_favorite_id = 789 # int | Id of favorite content
 
 try: 
@@ -373,12 +373,12 @@ Delete Content Metadata Access
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ContentApi()
+api_instance = lookerapi.ContentApi()
 content_metadata_access_id = 789 # int | Id of content metadata access
 
 try: 
@@ -421,12 +421,12 @@ Search Favorite Contents
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ContentApi()
+api_instance = lookerapi.ContentApi()
 user_id = 789 # int | Match User Id (optional)
 limit = 789 # int | Number of results to return. (used with offset) (optional)
 offset = 789 # int | Number of results to skip before returning any. (used with limit) (optional)
@@ -477,12 +477,12 @@ Search Content Views
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ContentApi()
+api_instance = lookerapi.ContentApi()
 view_count = 789 # int | Match view count (optional)
 group_id = 789 # int | Match Group Id (optional)
 look_id = 'look_id_example' # str | Match look_id (optional)
@@ -547,14 +547,14 @@ Update Content Metadata
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ContentApi()
+api_instance = lookerapi.ContentApi()
 content_metadata_id = 789 # int | Id of content metadata
-body = swagger_client.ContentMeta() # ContentMeta | Content Metadata
+body = lookerapi.ContentMeta() # ContentMeta | Content Metadata
 
 try: 
     # Update Content Metadata
@@ -597,14 +597,14 @@ Update Content Metadata Access
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ContentApi()
+api_instance = lookerapi.ContentApi()
 content_metadata_access_id = 789 # int | Id of content metadata access
-body = swagger_client.ContentMetaGroupUser() # ContentMetaGroupUser | Content Metadata Access
+body = lookerapi.ContentMetaGroupUser() # ContentMetaGroupUser | Content Metadata Access
 
 try: 
     # Update Content Metadata Access

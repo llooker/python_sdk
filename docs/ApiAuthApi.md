@@ -1,4 +1,4 @@
-# swagger_client.ApiAuthApi
+# lookerapi.ApiAuthApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -20,12 +20,12 @@ Login
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApiAuthApi()
+api_instance = lookerapi.ApiAuthApi()
 client_id = 'client_id_example' # str | client_id part of API3 Key. (optional)
 client_secret = 'client_secret_example' # str | client_secret part of API3 Key. (optional)
 
@@ -70,12 +70,12 @@ Login user
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApiAuthApi()
+api_instance = lookerapi.ApiAuthApi()
 user_id = 789 # int | Id of user.
 
 try: 
@@ -118,12 +118,12 @@ Logout
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ApiAuthApi()
+api_instance = lookerapi.ApiAuthApi()
 
 try: 
     # Logout

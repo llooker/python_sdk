@@ -1,4 +1,4 @@
-# swagger_client.DataActionApi
+# lookerapi.DataActionApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -19,12 +19,12 @@ For some data actions, the remote server may supply a form requesting further us
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DataActionApi()
+api_instance = lookerapi.DataActionApi()
 body = NULL # object | Data Action Request
 
 try: 
@@ -67,13 +67,13 @@ Perform a data action. The data action object can be obtained from query results
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.DataActionApi()
-body = swagger_client.DataActionRequest() # DataActionRequest | Data Action Request
+api_instance = lookerapi.DataActionApi()
+body = lookerapi.DataActionRequest() # DataActionRequest | Data Action Request
 
 try: 
     # Send a Data Action

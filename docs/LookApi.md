@@ -1,4 +1,4 @@
-# swagger_client.LookApi
+# lookerapi.LookApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -24,12 +24,12 @@ Get All Looks
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LookApi()
+api_instance = lookerapi.LookApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -72,13 +72,13 @@ Create Look
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LookApi()
-body = swagger_client.LookWithQuery() # LookWithQuery | Look (optional)
+api_instance = lookerapi.LookApi()
+body = lookerapi.LookWithQuery() # LookWithQuery | Look (optional)
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 
@@ -122,12 +122,12 @@ Delete Look
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LookApi()
+api_instance = lookerapi.LookApi()
 look_id = 789 # int | Id of look
 
 try: 
@@ -170,12 +170,12 @@ Get Look
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LookApi()
+api_instance = lookerapi.LookApi()
 look_id = 789 # int | Id of look
 fields = 'fields_example' # str | Requested fields. (optional)
 
@@ -220,12 +220,12 @@ Run Look
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LookApi()
+api_instance = lookerapi.LookApi()
 look_id = 789 # int | Id of look
 result_format = 'result_format_example' # str | Format of result
 limit = 789 # int | Row limit (may override the limit in the saved query). (optional)
@@ -294,12 +294,12 @@ Search looks.
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LookApi()
+api_instance = lookerapi.LookApi()
 fields = 'fields_example' # str | Requested fields. (optional)
 page = 789 # int | Requested page. (optional)
 per_page = 789 # int | Results per page. (optional)
@@ -364,14 +364,14 @@ Update Look
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LookApi()
+api_instance = lookerapi.LookApi()
 look_id = 789 # int | Id of look
-body = swagger_client.LookWithQuery() # LookWithQuery | Look
+body = lookerapi.LookWithQuery() # LookWithQuery | Look
 fields = 'fields_example' # str | Requested fields. (optional)
 
 try: 

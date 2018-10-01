@@ -1,4 +1,4 @@
-# swagger_client.SqlQueryApi
+# lookerapi.SqlQueryApi
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
 
@@ -19,13 +19,13 @@ Create a SQL Runner query.
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SqlQueryApi()
-body = swagger_client.SqlQueryCreate() # SqlQueryCreate | SQL Runner Query
+api_instance = lookerapi.SqlQueryApi()
+body = lookerapi.SqlQueryCreate() # SqlQueryCreate | SQL Runner Query
 
 try: 
     # Create SQL Runner Query
@@ -67,12 +67,12 @@ Get a SQL Runner query.
 ```python
 from __future__ import print_statement
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import lookerapi
+from lookerapi.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SqlQueryApi()
+api_instance = lookerapi.SqlQueryApi()
 slug = 'slug_example' # str | slug of query
 
 try: 
