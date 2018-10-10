@@ -68,6 +68,41 @@ print(resp)
 
 ```
 
+## Examples
+### Update a User Attribute
+
+```
+# pip install lookerapi
+import lookerapi as looker
+
+# replace with your custom Looker API Host domain and port, if applicable.
+base_url = 'https://demo.looker.com:19999/api/3.0/'
+client_id = ''
+client_secret = ''
+
+# instantiate Auth API
+unauthenticated_client = looker.ApiClient(base_url)
+unauthenticated_authApi = looker.ApiAuthApi(unauthenticated_client)
+
+# authenticate client
+token = unauthenticated_authApi.login(client_id=client_id, client_secret=client_secret)
+client = looker.ApiClient(base_url, 'Authorization', 'token ' + token.access_token)
+
+# instantiate User API client
+userApi = looker.UserApi(client)
+me = userApi.me();
+
+# user # 326
+print(userApi.user_attribute_user_values(326))
+
+body = {"value": "Russ" }
+
+# set user_attribute_id 326 
+userApi.set_user_attribute_user_value(326,12,body)
+
+print(userApi.user_attribute_user_values(326))
+```
+
 ## Documentation for API Endpoints
 
 All URIs are relative to *https://demo.looker.com:19999/api/3.0*
@@ -470,41 +505,6 @@ Class | Method | HTTP request | Description
 
  All endpoints do not require authorization.
  
-## Examples
-### Update a User Attribute
-
-```
-# pip install lookerapi
-import lookerapi as looker
-
-# replace with your custom Looker API Host domain and port, if applicable.
-base_url = 'https://demo.looker.com:19999/api/3.0/'
-client_id = ''
-client_secret = ''
-
-# instantiate Auth API
-unauthenticated_client = looker.ApiClient(base_url)
-unauthenticated_authApi = looker.ApiAuthApi(unauthenticated_client)
-
-# authenticate client
-token = unauthenticated_authApi.login(client_id=client_id, client_secret=client_secret)
-client = looker.ApiClient(base_url, 'Authorization', 'token ' + token.access_token)
-
-# instantiate User API client
-userApi = looker.UserApi(client)
-me = userApi.me();
-
-# user # 326
-print(userApi.user_attribute_user_values(326))
-
-body = {"value": "Russ" }
-
-# set user_attribute_id 326 
-userApi.set_user_attribute_user_value(326,12,body)
-
-print(userApi.user_attribute_user_values(326))
-```
-
 
 ## Author
 
